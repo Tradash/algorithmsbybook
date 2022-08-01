@@ -1,0 +1,6 @@
+.vscode
+.idea
+build
+*.bin
+test*.txt
+__debug*
