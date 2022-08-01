@@ -6,7 +6,7 @@ import "fmt"
 
 func find(x, y int) int {
 	m := x % y
-	fmt.Println(x, x/y, y, m)
+	fmt.Println("Шаг:", x, x/y, y, m)
 	if m == 0 {
 		return y
 	}
@@ -17,6 +17,6 @@ func main() {
 	x := 136
 	y := 56
 
-	fmt.Println(x, y, find(x, y))
+	fmt.Printf("X:=%d, Y:=%d, Наименьший делитель: %d", x, y, find(x, y))
 
 }
